@@ -1,6 +1,8 @@
 venv/
 .idea/
-
+Book/Basic_Python/.idea
+Book/Basic_Python/venv
+Book/Greedy/.idea
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,pycharm,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,pycharm,python
