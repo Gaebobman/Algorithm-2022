@@ -1,4 +1,4 @@
 # Algorithm-2022
 
-<h3><b>21.12.21</b></h3>
+<h3>21.12.21</h3>
   Python Basic
