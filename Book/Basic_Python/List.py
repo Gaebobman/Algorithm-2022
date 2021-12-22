@@ -49,3 +49,45 @@ print(array)
 
 # List Comprehension 으로 2차원 List 초기화
 
+n = 3
+m = 4
+
+array = [[0] * m for _ in range(n)]
+print(array)
+
+# !!! 주의 !!! List Comprehension 이 반드시 필요한 경우
+print()
+array = [[0] * m] * n
+print(array)
+
+array[1][1] = 5
+print(array)
+
+a = [1, 7, 6, 2, 8, 0]
+print("리스트: ", a)
+
+a.append(10)
+print("append(10) 이후 리스트: ", a)
+
+a.sort()
+print("sort() 이후 리스트", a)
+
+a.sort(reverse=True)
+print("내림차순 정렬, sort(reverse=True) 이후 리스트: ", a)
+
+a.reverse()
+print("원소 뒤집기", a)
+
+a.insert(2, 3)      # O(N)소요
+print("idx 2에 3넣기", a)
+
+print("3의 갯수 세기", a.count(3))
+
+a.remove(3)     # O(N)소요, 하나만 제거됨
+print("3 삭제", a)
+
+# 특정 원소를 모두 제거하기
+a = [1, 2, 3, 4, 5, 6, 7, 8 ,9 ,10]
+remove_set = {3, 5}
+
+result = [i for i in a if i not in remove_set]
