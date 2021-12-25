@@ -3,7 +3,8 @@ venv/
 Book/Basic_Python/.idea
 Book/Basic_Python/venv
 Book/Greedy/.idea
-
+Baekjoon/.idea
+Baekjoon/venv
 # Created by https://www.toptal.com/developers/gitignore/api/windows,pycharm,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,pycharm,python
 
