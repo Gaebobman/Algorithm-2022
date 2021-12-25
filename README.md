@@ -18,12 +18,17 @@ Python Basic (진짜 기초)
       <li>collections</li>
   </ul>
   <br>
-<b>`21.12.23</b><br><br>
+<b>`21.12.23~25</b><br><br>
 Greedy
   <ul>
     <li>p.92 큰 수의 법칙</li>
     <li>p.96 숫자 카드 게임</li>
     <li>p.99 1이 될 때 까지</li>
+    <li><a href ="https://www.acmicpc.net/problem/2839">BAEKJOON_2839</a> 설탕배달</li>
+    <li><a href ="https://www.acmicpc.net/problem/11399">BAEKJOON_11399</a> ATM</li>
+    <li><a href ="https://www.acmicpc.net/problem/11047">BAEKJOON_11047</a> 동전 0</li>
+    <li><a href = "https://www.acmicpc.net/problem/1931">BAEKJOON_1931</a> 회의실 배정</li>
+    <li><a href = "https://www.acmicpc.net/problem/1026">BAEKJOON_1026</a> 보물</li>
   </ul>
   <br><br>
   <hr>
