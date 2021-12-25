@@ -29,6 +29,7 @@ Greedy
     <li><a href ="https://www.acmicpc.net/problem/11047">BAEKJOON_11047</a> 동전 0</li>
     <li><a href = "https://www.acmicpc.net/problem/1931">BAEKJOON_1931</a> 회의실 배정</li>
     <li><a href = "https://www.acmicpc.net/problem/1026">BAEKJOON_1026</a> 보물</li>
+    <li><a href = "https://www.acmicpc.net/problem/1541">BAEKJOON_1541</a> 잃어버린 괄호</li>
   </ul>
   <br><br>
   <hr>

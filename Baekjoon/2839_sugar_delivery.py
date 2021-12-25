@@ -16,5 +16,5 @@ while N >= 0:
         break
     N -= 3
     result += 1
-else :
+else:
     print(-1)
