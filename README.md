@@ -1,7 +1,6 @@
 # Algorithm-2022
 
 <p>
-  
 <b>`21.12.21 ~ 22</b><br><br>
 Python Basic (진짜 기초)
     <ul> 
@@ -32,14 +31,14 @@ Greedy
     <li><a href = "https://www.acmicpc.net/problem/1541">BAEKJOON_1541</a> 잃어버린 괄호</li>
   </ul>
   <br><br>
-  <hr>
-  <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
-  <b>`21.12.26~27</b><br><br>
-  Implementation
-    <ul>
-      <li>p.110 상하좌우</li>
-      <li>p.113 시각</li>
-      <li>p.115 왕실의 나이트</li>
-      <li>p.118 게임 개발</li>
-    </ul>
+<b>`21.12.26~27</b><br><br>
+Implementation
+  <ul>
+    <li>p.110 상하좌우</li>
+    <li>p.113 시각</li>
+    <li>p.115 왕실의 나이트</li>
+    <li>p.118 게임 개발</li>
+  </ul>
+<hr>
+<a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
 </p>
