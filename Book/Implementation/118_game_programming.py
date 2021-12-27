@@ -10,34 +10,51 @@ heat_map = [[0] * N for _ in range(M)]  # 가본 땅
 dx = [-1, 0, 1, 0]
 dy = [0, 1, 0, -1]
 
-moves = 1  # 탐색한 땅의 수
+moves = 0  # 탐색한 땅의 수
 
 created_map = []
 for i in range(N):
     created_map.append(list(map(int, input().split())))
 
-turn = 0  # 회전 횟수
+turn = 1  # 회전 횟수
 while True:
 
+    # 4번 방향전환을 했으면
+    if turn == 4:
+        next_r_move_x = x - dx[direction]
+        next_r_move_y = y - dy[direction]
+
+        # 뒤로 갈 수 있는지 확인하고 가능하면 뒤로 이동
+        if created_map[next_r_move_x][next_r_move_y] == 0:
+            x = next_r_move_x
+            y = next_r_move_y
+            turn = 0
+        # 못가면 종료
+        else:
+            break
+
     # 좌측 회전, 동시에 turn 1 증가, turn 4면 종료
-    if direction - 1 == 0:
+    if direction - 1 == -1:
         direction = 3
         turn += 1
     else:
         direction -= 1
         turn += 1
 
-    if turn == 4:
-        break
+    next_move_x = x + dx[direction]
+    next_move_y = y + dy[direction]
 
     # 만약 바라보는 방향으로 이동 가능하다면
+    if created_map[next_move_x][next_move_y] == 0 and heat_map[next_move_x][next_move_y] == 0:
+        # 이동, heat_map 에 기록, 이동수 증가
+        heat_map[next_move_x][next_move_y] = 1
+        x = next_move_x
+        y = next_move_y
+        turn = 0
+        moves += 1
+        print("이동! 현 위치 [", x, y, ']')
+        continue
+    else:
+        continue
 
-        # 이동, heat_map 에 기록, created_map 에 1로 기록
-
-    # 이동 불가면 뒤로 이동
-
-    # 사면초가 -> 종료
-
-
-
-print(created_map)
+print(moves)
