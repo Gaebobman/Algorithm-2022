@@ -30,7 +30,7 @@ Greedy
     <li><a href = "https://www.acmicpc.net/problem/1026">BAEKJOON_1026</a> 보물</li>
     <li><a href = "https://www.acmicpc.net/problem/1541">BAEKJOON_1541</a> 잃어버린 괄호</li>
   </ul>
-  <br><br>
+  <br>
 <b>`21.12.26~27</b><br><br>
 Implementation
   <ul>
