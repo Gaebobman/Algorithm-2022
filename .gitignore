@@ -6,6 +6,8 @@ Book/Greedy/venv
 Book/Greedy/.idea
 Book/Implementation/venv
 Book/Implementation/.idea
+Book/Sort/venv
+Book/Sort/.idea
 Baekjoon/.idea
 Baekjoon/venv
 # Created by https://www.toptal.com/developers/gitignore/api/windows,pycharm,python
