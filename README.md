@@ -49,13 +49,14 @@ DFS/BFS
     <li>p.152 미로찾기</li>
   </ul>
   <br>
-<b>`21.12.28</b><br>
+<b>`21.12.29~30</b><br>
 Sort
   <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    
+    <li>Selection Sort</li>
+    <li>Insertion Sort</li>
+    <li>Quick sort</li>
+    <li><a href = "https://www.acmicpc.net/problem/2750">BAEKJOON_2750</a> 수 정렬하기</li>
+    <li><a href = "https://www.acmicpc.net/problem/1427">BAEKJOON_1427</a> 소트인사이드</li>
   </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
