@@ -57,6 +57,9 @@ Sort
     <li>Quick sort</li>
     <li><a href = "https://www.acmicpc.net/problem/2750">BAEKJOON_2750</a> 수 정렬하기</li>
     <li><a href = "https://www.acmicpc.net/problem/1427">BAEKJOON_1427</a> 소트인사이드</li>
+    <li>p.178 위에서 아래로</li>
+    <li>p.180 성적이 낮은 순서로 학생 출력하기</li>
+    <li>p.182 두 배열의 원소 교체</li>
   </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
