@@ -76,6 +76,8 @@ Dynamic Programming
     <li>p.217 1로 만들기</li>
     <li><a href = "https://www.acmicpc.net/problem/1463">BAEKJOON_1463</a> 1로 만들기</li>
     <li>p.220 개미 전사</li>
+    <li>p.223 바닥 공사</li>
+    <li>p.226 효율적인 화폐 구성</li>
   </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>

@@ -5,11 +5,20 @@
 
 N, M = map(int, input().split())
 coins = []  # 입력받을 동전 종류
-D = [0] * (M + 1)   # DP Table
+D = [0] * (M + 1)  # DP Table
 
 for i in range(N):
     x = int(input())
     coins.append(x)
 
+for coin in coins:
+    for i in range(M + 1):
+        if i % coin == 0:
+            D[i] = i // coin
+        elif D[i] != 0 and (i + coin) <= (M):
+            D[i + coin] = D[i] + 1
 
-
+if D[M] == 0:
+    print(-1)
+else:
+    print(D[M])
