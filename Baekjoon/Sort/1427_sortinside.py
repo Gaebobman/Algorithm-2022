@@ -3,6 +3,11 @@
 
 # 0~9 이므로 계수정렬을 이용하자
 
+# https://www.acmicpc.net/problem/1427
+# Sort
+
+# 0~9 이므로 계수정렬을 이용하자
+
 def count_sort(arr):
 
     count = [0] * 10

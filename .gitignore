@@ -8,6 +8,10 @@ Book/Implementation/venv
 Book/Implementation/.idea
 Book/Sort/venv
 Book/Sort/.idea
+Book/Binary_Search/venv
+Book/Binary_Search/.idea
+Book/Dynamic_Programming/venv
+Book/Dynamic_Programming/.idea
 Baekjoon/.idea
 Baekjoon/venv
 # Created by https://www.toptal.com/developers/gitignore/api/windows,pycharm,python

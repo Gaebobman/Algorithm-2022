@@ -61,6 +61,22 @@ Sort
     <li>p.180 성적이 낮은 순서로 학생 출력하기</li>
     <li>p.182 두 배열의 원소 교체</li>
   </ul>
+<b>`22.01.01~02</b><br>
+Binary Search
+  <ul>
+    <li>Binary Search</li>
+    <li>p.197 부품 찾기</li>
+    <li>p.201 떡볶이 떡 만들기</li>
+  </ul>
+<b>`22.01.03~</b><br>
+Dynamic Programming
+  <ul>
+    <li>Top-Down</li>
+    <li>Bottom-Up</li>
+    <li>p.217 1로 만들기</li>
+    <li><a href = "https://www.acmicpc.net/problem/1463">BAEKJOON_1463</a> 1로 만들기</li>
+    <li>p.220 개미 전사</li>
+  </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
 </p>
