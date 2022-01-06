@@ -81,6 +81,8 @@ Dynamic Programming
     <li><a href = "https://www.acmicpc.net/problem/1003">BAEKJOON_1463</a> 피보나치 함수</li>
     <li><a href = "https://www.acmicpc.net/problem/9095">BAEKJOON_9095</a> 1, 2, 3 더하기</li>
     <li><a href = "https://www.acmicpc.net/problem/11726">BAEKJOON_11726</a> 2×n 타일링</li>
+    <li><a href = "https://www.acmicpc.net/problem/1149">BAEKJOON_1149</a> RGB거리</li>
+    <li><a href = "https://www.acmicpc.net/problem/2579">BAEKJOON_2579</a> 계단 오르기</li>
   </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
