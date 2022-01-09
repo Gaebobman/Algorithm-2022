@@ -68,7 +68,7 @@ Binary Search
     <li>p.197 부품 찾기</li>
     <li>p.201 떡볶이 떡 만들기</li>
   </ul>
-<b>`22.01.03~</b><br>
+<b>`22.01.03~01.06</b><br>
 Dynamic Programming
   <ul>
     <li>Top-Down</li>
@@ -83,6 +83,14 @@ Dynamic Programming
     <li><a href = "https://www.acmicpc.net/problem/11726">BAEKJOON_11726</a> 2×n 타일링</li>
     <li><a href = "https://www.acmicpc.net/problem/1149">BAEKJOON_1149</a> RGB거리</li>
     <li><a href = "https://www.acmicpc.net/problem/2579">BAEKJOON_2579</a> 계단 오르기</li>
+  </ul>
+<b>`22.01.07~</b><br>
+Shortest Path
+  <ul>
+    <li>Dijkstra algorithm (List version, Heap version) </li>
+    <li>Floyd Warshall algorithm</li>
+    <li>p.259 미래도시</li>
+    <li>p.262 전보</li>
   </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
