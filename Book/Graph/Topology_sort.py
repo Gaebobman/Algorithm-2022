@@ -8,10 +8,11 @@ indegree = [0] * (v + 1)
 graph = [[] for i in range(v + 1)]
 
 for _ in range(e):
-    a, b = map(int, input().split())
+    a, b = map(int, input().split())    # a -> b 식으로 입력
     graph[a].append(b)
     indegree[b] += 1
 
+# print(graph)
 def topology_sort():
     result = []
     q = deque()
