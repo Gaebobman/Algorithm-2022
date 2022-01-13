@@ -104,7 +104,9 @@ Graph
     <li><a href = "https://www.acmicpc.net/problem/2178">BAEKJOON_2178</a> 미로 탐색</li>
     <li><a href = "https://www.acmicpc.net/problem/2667">BAEKJOON_2667</a> 단지번호붙이기</li>
     <li><a href = "https://www.acmicpc.net/problem/2606">BAEKJOON_2667</a> 바이러스</li>
-    <li><a href = "https://www.acmicpc.net/problem/1012">BAEKJOON_1012</a> 유기농 배추</li>    
+    <li><a href = "https://www.acmicpc.net/problem/1012">BAEKJOON_1012</a> 유기농 배추</li>
+    <li><a href = "https://www.acmicpc.net/problem/7576">BAEKJOON_7576</a> 토마토</li>
+    <li><a href = "https://www.acmicpc.net/problem/1697">BAEKJOON_1697</a> 숨바꼭질</li>   
   </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
