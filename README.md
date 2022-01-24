@@ -107,6 +107,7 @@ Graph
     <li><a href = "https://www.acmicpc.net/problem/1012">BAEKJOON_1012</a> 유기농 배추</li>
     <li><a href = "https://www.acmicpc.net/problem/7576">BAEKJOON_7576</a> 토마토</li>
     <li><a href = "https://www.acmicpc.net/problem/1697">BAEKJOON_1697</a> 숨바꼭질</li>   
+    <li><a href = "https://www.acmicpc.net/problem/11724">BAEKJOON_11724</a> 연결 요소의 개수</li>
   </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
