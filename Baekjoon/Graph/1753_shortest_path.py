@@ -17,6 +17,7 @@ for _ in range(E):
 
 def dijkstra(start):
     q = []
+    # heap 에 Cost, Vertex 순서대로 넣어야 최단시간을 보장함
     heapq.heappush(q, (0, start))
     distance[start] = 0
 
