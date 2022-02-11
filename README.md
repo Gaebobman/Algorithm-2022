@@ -32,7 +32,10 @@ Greedy
     <li><a href = "https://www.acmicpc.net/problem/5585">BAEKJOON_5585</a> 거스름돈</li>
     <li><a href = "https://www.acmicpc.net/problem/2217">BAEKJOON_2217</a> 로프</li>
     <li><a href = "https://www.acmicpc.net/problem/10162">BAEKJOON_10162</a> 전자레인지</li>
-    <li><a href = "https://www.acmicpc.net/problem/10610">BAEKJOON_10610</a> 30ㄴ</li>
+    <li><a href = "https://www.acmicpc.net/problem/10610">BAEKJOON_10610</a> 30</li>
+    <li><a href = "https://www.acmicpc.net/problem/1789">BAEKJOON_1789</a> 수들의 합</li>
+    <li><a href = "https://www.acmicpc.net/problem/13305">BAEKJOON_13305</a> 주유소</li>
+    <li><a href = "https://www.acmicpc.net/problem/1946">BAEKJOON_1946</a> 신입사원</li>
   </ul>
   <br>
 <br>
