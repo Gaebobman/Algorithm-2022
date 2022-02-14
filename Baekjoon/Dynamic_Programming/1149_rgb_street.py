@@ -15,4 +15,3 @@ for i in range(1, N):
     costs[i][2] = min(costs[i - 1][0], costs[i - 1][1]) + costs[i][2]
 
 print(min(costs[N - 1]))
-
