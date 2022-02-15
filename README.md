@@ -111,6 +111,8 @@ Dynamic Programming
     <li><a href = "https://www.acmicpc.net/problem/2579">BAEKJOON_2579</a> 계단 오르기</li>
     <li><a href = "https://www.acmicpc.net/problem/11053">BAEKJOON_11053</a> 가장 긴 증가하는 부분 수열</li>
     <li><a href = "https://www.acmicpc.net/problem/1932">BAEKJOON_1932</a> 정수 삼각형</li>
+    <li><a href = "https://www.acmicpc.net/problem/1912">BAEKJOON_1912</a> 연속합</li>
+    <li><a href = "https://www.acmicpc.net/problem/2156">BAEKJOON_2156</a> 포도주 시식</li>
   </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
