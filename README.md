@@ -115,6 +115,10 @@ Dynamic Programming
     <li><a href = "https://www.acmicpc.net/problem/2156">BAEKJOON_2156</a> 포도주 시식</li>
     <li><a href = "https://www.acmicpc.net/problem/2748">BAEKJOON_2748</a> 피보나치 수 2</li>
     <li><a href = "https://www.acmicpc.net/problem/10844">BAEKJOON_10844</a> 쉬운 계단 수</li>
+    <li><a href = "https://www.acmicpc.net/problem/2193">BAEKJOON_2193</a> 이친수</li>
+    <li><a href = "https://www.acmicpc.net/problem/9461">BAEKJOON_9461</a> 파도반 수열</li>
+    <li><a href = "https://www.acmicpc.net/problem/11727">BAEKJOON_11727</a> 2×n 타일링 2</li>
+    <li><a href = "https://www.acmicpc.net/problem/14501">BAEKJOON_14501</a> 퇴사</li>
   </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
