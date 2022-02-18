@@ -119,6 +119,13 @@ Dynamic Programming
     <li><a href = "https://www.acmicpc.net/problem/9461">BAEKJOON_9461</a> 파도반 수열</li>
     <li><a href = "https://www.acmicpc.net/problem/11727">BAEKJOON_11727</a> 2×n 타일링 2</li>
     <li><a href = "https://www.acmicpc.net/problem/14501">BAEKJOON_14501</a> 퇴사</li>
+    <li><a href = "https://www.acmicpc.net/problem/11052">BAEKJOON_11052</a> 카드 구매하기</li>
+    <li><a href = "https://www.acmicpc.net/problem/1904">BAEKJOON_1904</a> 01타일</li>
+  </ul>
+<br>
+Math
+  <ul>
+    <li><a href = "https://www.acmicpc.net/problem/1010">BAEKJOON_1010</a> 다리 놓기 (DP로도 풀 수 있음)</li>
   </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
