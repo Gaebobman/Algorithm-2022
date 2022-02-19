@@ -93,6 +93,9 @@ Binary Search
     <li>Binary Search</li>
     <li>p.197 부품 찾기</li>
     <li>p.201 떡볶이 떡 만들기</li>
+    <li><a href = "https://www.acmicpc.net/problem/1920">BAEKJOON_1920</a> 수 찾기</li>
+    <li><a href = "https://www.acmicpc.net/problem/2805">BAEKJOON_2805</a> 나무 자르기</li>
+    <li><a href = "https://www.acmicpc.net/problem/1654">BAEKJOON_1654</a> 랜선 자르기</li>
   </ul>
 <br>
 Dynamic Programming
@@ -121,6 +124,7 @@ Dynamic Programming
     <li><a href = "https://www.acmicpc.net/problem/14501">BAEKJOON_14501</a> 퇴사</li>
     <li><a href = "https://www.acmicpc.net/problem/11052">BAEKJOON_11052</a> 카드 구매하기</li>
     <li><a href = "https://www.acmicpc.net/problem/1904">BAEKJOON_1904</a> 01타일</li>
+    <li><a href = "https://www.acmicpc.net/problem/9465">BAEKJOON_9465</a> 스티커</li>
   </ul>
 <br>
 Math
