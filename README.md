@@ -96,6 +96,8 @@ Binary Search
     <li><a href = "https://www.acmicpc.net/problem/1920">BAEKJOON_1920</a> 수 찾기</li>
     <li><a href = "https://www.acmicpc.net/problem/2805">BAEKJOON_2805</a> 나무 자르기</li>
     <li><a href = "https://www.acmicpc.net/problem/1654">BAEKJOON_1654</a> 랜선 자르기</li>
+    <li><a href = "https://www.acmicpc.net/problem/10816">BAEKJOON_10816</a> 숫자 카드 2</li>
+    <li><a href = "https://www.acmicpc.net/problem/10815">BAEKJOON_10815</a> 숫자 카드</li>
   </ul>
 <br>
 Dynamic Programming

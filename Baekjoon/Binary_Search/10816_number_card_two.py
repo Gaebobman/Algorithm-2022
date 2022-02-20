@@ -5,24 +5,45 @@ import sys
 input = sys.stdin.readline
 
 
-def binary_search(data, x, start_, end_):
-    start = start_
-    end = end_
-    # 재귀적으로 불러 보자
-    # 내가 타겟으로 삼은 인덱스가 안 나올때 까지 이분탐색을 돌리자
+def lower_bound(data, x):
+    start = 0
+    end = len(data)
+    while start < end:
+        mid = (start + end) // 2
+        if data[mid] >= x:
+            end = mid
+        else:
+            start = mid + 1
+    return start
 
+
+def upper_bound(data, x):
+    start = 0
+    end = len(data)
+    while start < end:
+        mid = (start + end) // 2
+        if data[mid] > x:
+            end = mid
+        else:
+            start = mid + 1
+    return start
+
+
+def binary_search(data, x):
+    low = lower_bound(data, x)
+    high = upper_bound(data, x)
+    print(x, " 의 상한 :", high, " 하한: ", low)
+
+    return 0 if low == -1 else upper_bound(data, x) - low + 1
 
 
 N = int(input())
-data = list(map(int, input().split))
-d = {}
-for i in range(N):
-    if data[i] not in d.keys():
-
-    else:
+data = list(map(int, input().split()))
 M = int(input())
 target = list(map(int, input().split()))
-
-
+data.sort()
+result = []
 for i in target:
-    pass
+    result.append(upper_bound(data, i)- lower_bound(data, i))
+for i in result:
+    print(i, end=' ')
