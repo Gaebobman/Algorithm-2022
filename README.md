@@ -101,7 +101,9 @@ Binary Search
     <li><a href = "https://www.acmicpc.net/problem/2110">BAEKJOON_2110</a> 공유기 설치</li>
     <li><a href = "https://www.acmicpc.net/problem/2512">BAEKJOON_2512</a> 예산</li>
     <li><a href = "https://www.acmicpc.net/problem/12015">BAEKJOON_12015</a> 가장 긴 증가하는 부분 수열2</li>
-  </ul>
+    <li><a href = "https://www.acmicpc.net/problem/1300">BAEKJOON_1300</a> K번째 수</li>
+  
+</ul>
 <br>
 Dynamic Programming
   <ul>
