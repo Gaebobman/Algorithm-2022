@@ -87,9 +87,11 @@ Sort
     <li><a href = "https://www.acmicpc.net/problem/2750">BAEKJOON_2750</a> 수 정렬하기</li>
     <li><a href = "https://www.acmicpc.net/problem/1427">BAEKJOON_1427</a> 소트인사이드</li>
     <li><a href = "https://www.acmicpc.net/problem/2751">BAEKJOON_2751</a> 수 정렬하기 2</li>
-    <li><a href = "https://www.acmicpc.net/problem/1181">BAEKJOON_1181</a></li>
+    <li><a href = "https://www.acmicpc.net/problem/1181">BAEKJOON_1181</a> 단어 정렬</li>
     <li><a href = "https://www.acmicpc.net/problem/10989">BAEKJOON_10989</a> 수 정렬하기 3</li>
     <li><a href = "https://www.acmicpc.net/problem/11650">BAEKJOON_11650</a> 좌표 정렬하기</li>
+    <li><a href = "https://www.acmicpc.net/problem/2309">BAEKJOON_2309</a> 일곱 난쟁이</li>
+    <li><a href = "https://www.acmicpc.net/problem/10814">BAEKJOON_10814</a> 일곱 난쟁이</li>
 </ul>
 <br>
 Binary Search
