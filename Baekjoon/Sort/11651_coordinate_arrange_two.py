@@ -31,7 +31,7 @@ N = int(input())
 data = []
 for _ in range(N):
     x, y = map(int, input().split())
-    data.append((x, y))
+    data.append((y, x))
 sorted_data = merge_sort(data)
 for coordinate in sorted_data:
-    print(coordinate[0], coordinate[1])
+    print(coordinate[1], coordinate[0])
