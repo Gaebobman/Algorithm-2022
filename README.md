@@ -146,6 +146,12 @@ Math
   <ul>
     <li><a href = "https://www.acmicpc.net/problem/1010">BAEKJOON_1010</a> 다리 놓기 (DP로도 풀 수 있음)</li>
   </ul>
+<br>
+Brute forcing
+  <ul>
+    <li><a href = "https://www.acmicpc.net/problem/7568">BAEKJOON_7568</a> 덩치</li>
+    <li><a href = "https://www.acmicpc.net/problem/1018">BAEKJOON_1018</a> 체스판 다시 칠하기</li>
+  </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
 </p>
