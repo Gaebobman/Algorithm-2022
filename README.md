@@ -1,7 +1,6 @@
 # Algorithm-2022
 
-<p>
-<br><br>
+<br>
 Python Basic (진짜 기초)
     <ul> 
       <li>Numbers</li>
@@ -16,7 +15,7 @@ Python Basic (진짜 기초)
       <li><a href = "https://docs.python.org/ko/3/library/bisect.html">bisect</a></li>
       <li>collections</li>
   </ul>
-  <br>
+  
 <br>
 Greedy
   <ul>
@@ -37,7 +36,6 @@ Greedy
     <li><a href = "https://www.acmicpc.net/problem/13305">BAEKJOON_13305</a> 주유소</li>
     <li><a href = "https://www.acmicpc.net/problem/1946">BAEKJOON_1946</a> 신입사원</li>
   </ul>
-  <br>
 <br>
 Implementation
   <ul>
@@ -46,7 +44,6 @@ Implementation
     <li>p.115 왕실의 나이트</li>
     <li>p.118 게임 개발</li>
   </ul>
-  <br>
 <br>
 Graph
   <ul>
@@ -74,7 +71,6 @@ Graph
     <li>p.259 미래도시</li>
     <li>p.262 전보</li>
   </ul>
-  <br>
 <br>
 Sort
   <ul>
@@ -152,11 +148,14 @@ Brute forcing
     <li><a href = "https://www.acmicpc.net/problem/7568">BAEKJOON_7568</a> 덩치</li>
     <li><a href = "https://www.acmicpc.net/problem/1018">BAEKJOON_1018</a> 체스판 다시 칠하기</li>
   </ul>
+<br>
 Data structures
   <ul>
     <li><a href = "https://www.acmicpc.net/problem/10828">BAEKJOON_10828</a> 스택</li>
     <li><a href = "https://www.acmicpc.net/problem/9012">BAEKJOON_9012</a> 괄호</li>
+    <li><a href = "https://www.acmicpc.net/problem/10845">BAEKJOON_10845</a> 큐</li>
+    <li><a href = "https://www.acmicpc.net/problem/10773">BAEKJOON_10773</a> 제로</li>
+    <li><a href = "https://www.acmicpc.net/problem/1158">BAEKJOON_1158</a> 요세푸스 문제</li>
   </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
-</p>
