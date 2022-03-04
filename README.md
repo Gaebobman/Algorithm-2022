@@ -156,6 +156,9 @@ Data structures
     <li><a href = "https://www.acmicpc.net/problem/10845">BAEKJOON_10845</a> 큐</li>
     <li><a href = "https://www.acmicpc.net/problem/10773">BAEKJOON_10773</a> 제로</li>
     <li><a href = "https://www.acmicpc.net/problem/1158">BAEKJOON_1158</a> 요세푸스 문제</li>
+    <li><a href = "https://www.acmicpc.net/problem/1874">BAEKJOON_1874</a> 스택 수열</li>
+    <li><a href = "https://www.acmicpc.net/problem/10866">BAEKJOON_10866</a> 덱</li>
+    <li><a href = "https://www.acmicpc.net/problem/2164">BAEKJOON_2164</a> 카드 2</li>
   </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
