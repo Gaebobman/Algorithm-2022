@@ -159,6 +159,12 @@ Data structures
     <li><a href = "https://www.acmicpc.net/problem/1874">BAEKJOON_1874</a> 스택 수열</li>
     <li><a href = "https://www.acmicpc.net/problem/10866">BAEKJOON_10866</a> 덱</li>
     <li><a href = "https://www.acmicpc.net/problem/2164">BAEKJOON_2164</a> 카드 2</li>
+    <li><a href = "https://www.acmicpc.net/problem/1966">BAEKJOON_1966</a> 프린터 큐</li>
+    <li><a href = "https://www.acmicpc.net/problem/11866">BAEKJOON_11866</a> 요세푸스 문제 0</li>
+    <li><a href = "https://www.acmicpc.net/problem/10799">BAEKJOON_10799</a> 쇠막대기</li>
+    <li><a href = "https://www.acmicpc.net/problem/1927">BAEKJOON_1927</a> 최소 힙</li>
+    <li><a href = "https://www.acmicpc.net/problem/4949">BAEKJOON_4949</a> 균형잡힌 세상</li>
+    <li><a href = "https://www.acmicpc.net/problem/11279">BAEKJOON_11279</a> 최대 힙</li>
   </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>

@@ -7,4 +7,4 @@ res = []
 for i in range(N):
     head = (head + (K - 1)) % len(array)
     res.append(str(array.pop(head)))
-print("<%s>" %(", ".join(res)))
+print("<%s>" % (", ".join(res)))
