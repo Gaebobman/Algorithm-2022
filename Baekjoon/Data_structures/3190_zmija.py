@@ -16,38 +16,40 @@ for _ in range(L):
     X, C = input().split()
     move.append([int(X), C])
 # 상, 우, 하, 좌 의 움직임 정보 (시계 방향)
-dx, dy = [0, 1, 0, -1], [1, 0, -1, 0]
+dx = [-1, 0, 1, 0]
+dy =[0, 1, 0, -1]
 direction = 1  # 시작할 때 우측을 보고 시작
 snake = deque()  # 뱀의 좌표를 가짐
-snake.append([1, 1])
-time, move_number = 0, 0    # 게임 시간과 움직임 번호
+snake.append((1, 1))
+time, move_number = 0, 0  # 게임 시간과 움직임 번호
 while True:
     time += 1
-    # 방향 전환을 할 시간 이라면 방향을 바꿔 준다
-    if time == move[move_number][0]:
-        if move[move_number][1] == "L":
-            move_number = (move_number + 3) % 4
-            move_number += 1
-        elif move[move_number][1] == "D":
-            move_number = (move_number + 1) % 4
-            move_number += 1
-    # 머리를 다음 칸에 위치 시킨다
+    # 머리가 이동할 다음 칸을 계산
     t_head_x = snake[0][0] + dx[direction]
     t_head_y = snake[0][1] + dy[direction]
     # 벽에 박아 죽었는지 확인
     if t_head_x <= 0 or t_head_x > N or t_head_y <= 0 or t_head_y > N:
         break
     # 몸에 닿아 죽었는지 확인
-    if [t_head_x, t_head_y] in snake:
+    if (t_head_x, t_head_y) in snake:
         break
-    # 사과를 확인 있으면 사과를 먹이고 대가리 입력
-    if board[t_head_x][t_head_y] == 1:
-        snake.appendleft([t_head_x, t_head_y])
-    # 없으면 꼬리 이동
-    else:
-        snake.appendleft([t_head_x, t_head_y])
+    # 머리를 이동 시킴
+    snake.appendleft((t_head_x, t_head_y))
+    # 사과를 없으면 꼬리 자름
+    if board[t_head_x][t_head_y] == 0:
         snake.pop()
+    # 사과가 있으면 먹음
+    else:
+        board[t_head_x][t_head_y] = 0
+
+    # 방향 전환을 할 시간 이라면 방향을 바꿔 준다
+    if move_number < L:
+        if time == move[move_number][0]:
+            if move[move_number][1] == "L":
+                direction = (direction + 3) % 4
+                move_number += 1
+            elif move[move_number][1] == "D":
+                direction = (direction + 1) % 4
+                move_number += 1
 
 print(time)
-
-
