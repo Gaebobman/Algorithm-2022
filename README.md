@@ -167,6 +167,9 @@ Data structures
     <li><a href = "https://www.acmicpc.net/problem/11279">BAEKJOON_11279</a> 최대 힙</li>
     <li><a href = "https://www.acmicpc.net/problem/3190">BAEKJOON_3190</a> 뱀</li>
     <li><a href = "https://www.acmicpc.net/problem/1406">BAEKJOON_1406</a> 에디터</li>
+    <li><a href = "https://www.acmicpc.net/problem/1021">BAEKJOON_1021</a> 회전하는 큐</li>
+    <li><a href = "https://www.acmicpc.net/problem/1717">BAEKJOON_1717</a> 집합의 표현</li>
+    <li><a href = "https://www.acmicpc.net/problem/5430">BAEKJOON_5430</a> AC</li>
   </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
