@@ -170,6 +170,9 @@ Data structures
     <li><a href = "https://www.acmicpc.net/problem/1021">BAEKJOON_1021</a> 회전하는 큐</li>
     <li><a href = "https://www.acmicpc.net/problem/1717">BAEKJOON_1717</a> 집합의 표현</li>
     <li><a href = "https://www.acmicpc.net/problem/5430">BAEKJOON_5430</a> AC</li>
+    <li><a href = "https://www.acmicpc.net/problem/18258">BAEKJOON_18258</a> 큐 2</li>
+    <li><a href = "https://www.acmicpc.net/problem/11286">BAEKJOON_11286</a> 절댓값 힙</li>
+    <li><a href = "https://www.acmicpc.net/problem/17298">BAEKJOON_17298</a> 오큰수</li>
   </ul>
 <hr>
 <a href = "http://www.yes24.com/Product/Goods/91433923"> BOOK : 이것이 취업을 위한 코딩 테스트다 with 파이썬</a>
