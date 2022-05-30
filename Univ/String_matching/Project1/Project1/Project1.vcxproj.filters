@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="003_12171735_LeeJunPyo.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="test.cpp">
+    <ClCompile Include="KMP.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
