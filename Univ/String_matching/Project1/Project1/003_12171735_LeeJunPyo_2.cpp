@@ -67,7 +67,12 @@ int main() {
 	last_occurrence(pattern);
 	N = text.length();
 	M = pattern.length();
+	// (1) 알고리즘 진행 중 중간정보 출력
 	boyerMooreMatch(text, pattern);
-
+	cout << endl;
+	// (2) 알고리즘 종료 후 정보 출력
+	for (int i = 0; i < string_start_index.size(); i++) {
+		cout << string_start_index[i] << " ";
+	}
 	return 0;
 }
