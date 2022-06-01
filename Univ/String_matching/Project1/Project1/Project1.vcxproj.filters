@@ -18,5 +18,8 @@
     <ClCompile Include="003_12171735_LeeJunPyo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="033_12171735_LeeJunPyo_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
