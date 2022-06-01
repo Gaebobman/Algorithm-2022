@@ -8,7 +8,7 @@ int M;	// Length of Pattern
 vector<int> string_start_index;	// 구문이 존재하는 시작위치를 저장
 
 
-// Faliure function (Pattern의 전처리 과정) : O(m) time
+// Failure function (Pattern의 전처리 과정) : O(m) time
 vector<int> failure_function(string pattern) {
 	vector<int> f_table(M);		// Pattern 길이 만큼의 failure_table 정의
 	f_table[0] = 0;		// 첫 원소는 항상 0
@@ -33,6 +33,7 @@ vector<int> failure_function(string pattern) {
 	return f_table;
 }
 
+
 // KMP algorithm
 void KMP(string text, string pattern) {
 	vector<int> F = failure_function(pattern);	// failure_table 을 저장
@@ -44,10 +45,11 @@ void KMP(string text, string pattern) {
 		if (text[I] == pattern[J]) {	// Case 1 (text의 character와 pattern의 character 두개가 match)
 			if (J == M - 1) {	// 마지막 character 까지 일치하는 경우
 				string_start_index.push_back(I - J);	// 구문이 시작하는 위치 저장
-				J = F[J];
-				//if (J == F[M - 1]) {
-				//	cout << 1 << " ";
-				//}
+				cout << J - F[J] + 1<< " ";
+				J = F[J];		// 구문을 찾았을때 shift
+				I += 1;
+				
+				continue;
 			}
 			// 다음 Character 비교를 위해 idx++;
 			else {
@@ -57,12 +59,13 @@ void KMP(string text, string pattern) {
 		}
 		else if (J > 0) {
 			// (1) 알고리즘 진행 중 중간정보 출력
-			cout << J + (F[J-1] + 1) << " ";		// Shift 정보를 출력
+			//cout << J + (F[J - 1] + 1) << " ";		// Shift 정보를 출력
+			cout << J - F[J - 1] << " ";
 			J = F[J - 1];	// Pattern을 오른쪽으로 shift;
 		}
 		else {
 			I += 1;
-			cout << J + 1 << " ";
+			cout << "1" << " ";
 		}
 			
 	}
