@@ -18,5 +18,11 @@
     <ClCompile Include="maxheap.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2493_tower.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9375_fashion.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

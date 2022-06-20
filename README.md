@@ -173,6 +173,8 @@ Data structures
     <li><a href = "https://www.acmicpc.net/problem/18258">BAEKJOON_18258</a> 큐 2</li>
     <li><a href = "https://www.acmicpc.net/problem/11286">BAEKJOON_11286</a> 절댓값 힙</li>
     <li><a href = "https://www.acmicpc.net/problem/17298">BAEKJOON_17298</a> 오큰수</li>
+    <li><a href = "https://www.acmicpc.net/problem/2493">BAEKJOON_2493</a> 탑</li>
+    
   </ul>
 <br>
 Number Theory
