@@ -1,8 +1,7 @@
 // https://www.acmicpc.net/problem/9375
 #include <iostream>
 #include <string>
-#include <vector>
-#include <algorithm>
+#include <map>
 using namespace std;
 
 int main() {
@@ -10,20 +9,24 @@ int main() {
 	cin >> M;
 	string name, type;
 	while (M--) {
+		map<string, int> type_count;
+		result = 1;
 		cin >> N;
-
-		vector<pair<string, int>> type_count;
-
 		while (N--) {
 			cin >> name >> type;
-			if (find(type_count.begin(), type_count.end(), type) != type_count.end()) {
-				type_count[find(type_count.begin(), type_count.end(), type) - type_count.begin()].second++;
+			if (type_count.find(type) == type_count.end()) {
+				type_count[type] = 1;
 			}
 			else {
-				type_count.push_back(make_pair(type, 0));
+				type_count[type]++;
 			}
 		}
+
+		for (auto i : type_count) {
+			result = result * (i.second + 1);
+		}
 		
+		cout << result - 1 << "\n";
 	}
 	return 0;
 }

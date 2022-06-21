@@ -174,6 +174,8 @@ Data structures
     <li><a href = "https://www.acmicpc.net/problem/11286">BAEKJOON_11286</a> 절댓값 힙</li>
     <li><a href = "https://www.acmicpc.net/problem/17298">BAEKJOON_17298</a> 오큰수</li>
     <li><a href = "https://www.acmicpc.net/problem/2493">BAEKJOON_2493</a> 탑</li>
+    <li><a href = "https://www.acmicpc.net/problem/9375">BAEKJOON_9375</a> 패션왕 신해빈</li>
+    <li><a href = "https://www.acmicpc.net/problem/1655">BAEKJOON_1655</a> 가운데를 말해요</li>
     
   </ul>
 <br>
