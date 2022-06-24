@@ -176,6 +176,7 @@ Data structures
     <li><a href = "https://www.acmicpc.net/problem/2493">BAEKJOON_2493</a> 탑</li>
     <li><a href = "https://www.acmicpc.net/problem/9375">BAEKJOON_9375</a> 패션왕 신해빈</li>
     <li><a href = "https://www.acmicpc.net/problem/1655">BAEKJOON_1655</a> 가운데를 말해요</li>
+    <li><a href = "https://www.acmicpc.net/problem/1715">BAEKJOON_1655</a> 카드 정렬하기</li>
     
   </ul>
 <br>
