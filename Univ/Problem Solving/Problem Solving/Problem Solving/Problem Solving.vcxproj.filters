@@ -15,25 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="maxheap.cpp">
+    <ClCompile Include="week1_A_12171735_JunpyoLee.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2493_tower.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9375_fashion.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1655_say_mid.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1715_card_sorting.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2504_parenthesis.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11659_sum_of_intervals4.cpp">
+    <ClCompile Include="week1_B_12171735_JunpyoLee.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
