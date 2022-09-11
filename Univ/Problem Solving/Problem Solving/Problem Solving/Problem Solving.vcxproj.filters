@@ -13,13 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Week1">
+      <UniqueIdentifier>{74f010a1-6b63-49e6-be6b-0b59c4005bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Week2">
+      <UniqueIdentifier>{fa58f735-d83f-48a4-8aac-efd497fa25bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="week1_A_12171735_JunpyoLee.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Week1</Filter>
     </ClCompile>
     <ClCompile Include="week1_B_12171735_JunpyoLee.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Week1</Filter>
+    </ClCompile>
+    <ClCompile Include="week2_A_12171735_JunpyoLee.cpp">
+      <Filter>소스 파일\Week2</Filter>
+    </ClCompile>
+    <ClCompile Include="week2_B_12171735_JunpyoLee.cpp">
+      <Filter>소스 파일\Week2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

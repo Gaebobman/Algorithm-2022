@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <queue>
+#include <stack>
 
 using namespace std;
 
@@ -15,13 +15,70 @@ int main() {
 	cin >> T;
 
 	while (T--) {
+		stack<int> my_stack, my_stack_2;
+		int max_size = 0, tmp_size = 0;
+		cin >> S;
+		int s_length = S.length();
+		for (int i = 0; i < s_length; i++) {
+			// 1. T가 나온 상황
+			if (S[i] == 'T') {
+				// Empty stack 인 경우
+				if (my_stack.empty()) {
+					tmp_size = 0;
+					continue;
+				}
+				else {
+					my_stack.pop();
+					tmp_size++;
+					if (my_stack.empty()) {
+						max_size = max(max_size, tmp_size);
+					}
+
+				}
+			}
+			// 2. C가 나온 상황
+			else {
+				my_stack.push('C');
+				tmp_size++;
+			}
+		}
+		tmp_size = 0;
+		for (int i = s_length - 1; i >= 0; i--) {
+			// 1. C가 나온 상황
+			if (S[i] == 'C') {
+				// Empty stack 인 경우
+				if (my_stack_2.empty()) {
+					tmp_size = 0;
+					continue;
+				}
+				else {
+					my_stack_2.pop();
+					tmp_size++;
+					if (my_stack_2.empty()) {
+						max_size = max(max_size, tmp_size);
+					}
+
+				}
+			}
+			// 2. T가 나온 상황
+			else {
+				my_stack_2.push('T');
+				tmp_size++;
+			}
+		}
+
+		cout << max_size << '\n';
+	}
+
+	/*
+	while (T--) {
 		cin >> S;
 		int max_area = 0 , tmp_area = 0;
 		int last_zero_area = 0;
 		int t_count = 0;
 		int s_length = S.length();
-		queue<int> starting_point;		
-		vector<int> DP(s_length);		// 시작 가능한 지점을 저장하는 DP 테이블 (0으로 초기화 함)	
+		queue<int> starting_point;
+		vector<int> DP(s_length);		// 시작 가능한 지점을 저장하는 DP 테이블 (0으로 초기화 함)
 
 		// 시작점들을 queue에 저장함.
 		for (int i = 0; i < s_length; i++) {
@@ -90,7 +147,7 @@ int main() {
 		}
 		cout << max_area << '\n';
 	}
+	*/
 
-	
 	return 0;
 }
