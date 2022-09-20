@@ -51,24 +51,6 @@ int main() {
 			}
 		}
 		days += carry;
-
-		/*
-		while (c >= 0) {
-			int current_pow = int(pow(10, c));
-			if (m / current_pow != 0) {
-				if (m / current_pow <= 5) {
-					days += m / current_pow;
-				}
-				else {
-					days += 10 - (m / current_pow);
-					days++;
-				}
-				m = m % current_pow;
-			}
-			c--;
-		}
-		*/
-
 		cout << days << '\n';
 		days = 0;
 	}
