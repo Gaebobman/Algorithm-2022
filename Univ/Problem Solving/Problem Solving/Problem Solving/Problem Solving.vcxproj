@@ -37,9 +37,11 @@
     <ClCompile Include="week3_B_12171735_JunpyoLee.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Week4_A_12171735_JunpyoLee.cpp" />
-    <ClCompile Include="Week4_B_12171735_JunpyoLee.cpp">
+    <ClCompile Include="Week4_A_12171735_JunpyoLee.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Week4_B_12171735_JunpyoLee.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <PropertyGroup Label="Globals">

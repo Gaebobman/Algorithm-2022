@@ -18,10 +18,10 @@ int main() {
 
 		vector<vector<int>> graph(n + 1);
 		vector<int> infected;
-		int* root;
+		//int* root;
 		int x, y;
-		memset(&root, 0, sizeof(int) * (n + 1));
-		root[1] = 1;
+		//memset(&root, 0, sizeof(int) * (n + 1));
+		//root[1] = 1;
 		for (int i = 0; i < n - 1; i++) {
 			cin >> x >> y;
 			graph[x].push_back(y);
@@ -32,8 +32,14 @@ int main() {
 			infected.push_back(x);
 		}
 
-	
-		free(root);
+		for (int i = 1; i <= n; i++) {
+			cout << i << " 에 연결된 것: ";
+			for (int j = 0; j < graph[i].size(); j++) {
+				cout << graph[i][j] << ' ';
+			}
+			cout << '\n';
+		}
+		//free(root);
 	}
 	return 0;
 }
