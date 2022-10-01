@@ -39,7 +39,10 @@
     <ClCompile Include="1436_diretor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="9663_n_queen.cpp">
+    <ClCompile Include="notSolved_9663_n_queen.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4963_isle_count.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
