@@ -25,6 +25,12 @@
     <Filter Include="소스 파일\Week4">
       <UniqueIdentifier>{5d7ccf64-7eb6-4315-911f-cedd70fc5b19}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Week5">
+      <UniqueIdentifier>{584ab9fd-48e0-4978-95e6-adaf6bce9594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Week6">
+      <UniqueIdentifier>{c900ed3c-32cf-42de-8636-783fb6aad1ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="week1_A_12171735_JunpyoLee.cpp">
@@ -50,6 +56,24 @@
     </ClCompile>
     <ClCompile Include="Week4_B_12171735_JunpyoLee.cpp">
       <Filter>소스 파일\Week4</Filter>
+    </ClCompile>
+    <ClCompile Include="week5_A_12171735_JunpyoLee.cpp">
+      <Filter>소스 파일\Week5</Filter>
+    </ClCompile>
+    <ClCompile Include="week5_B_12171735_JunpyoLee.cpp">
+      <Filter>소스 파일\Week5</Filter>
+    </ClCompile>
+    <ClCompile Include="Week6_A_12171735_JunpyoLee.cpp">
+      <Filter>소스 파일\Week6</Filter>
+    </ClCompile>
+    <ClCompile Include="re_week2_A.cpp">
+      <Filter>소스 파일\Week2</Filter>
+    </ClCompile>
+    <ClCompile Include="re_week1_B.cpp">
+      <Filter>소스 파일\Week1</Filter>
+    </ClCompile>
+    <ClCompile Include="re_week1_A.cpp">
+      <Filter>소스 파일\Week1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
