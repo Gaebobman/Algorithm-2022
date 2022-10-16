@@ -75,5 +75,14 @@
     <ClCompile Include="re_week1_A.cpp">
       <Filter>소스 파일\Week1</Filter>
     </ClCompile>
+    <ClCompile Include="re_week2_B.cpp">
+      <Filter>소스 파일\Week2</Filter>
+    </ClCompile>
+    <ClCompile Include="re_week3_A.cpp">
+      <Filter>소스 파일\Week3</Filter>
+    </ClCompile>
+    <ClCompile Include="re_week3_B.cpp">
+      <Filter>소스 파일\Week3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
