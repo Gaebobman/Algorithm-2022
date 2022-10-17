@@ -99,5 +99,8 @@
     <ClCompile Include="re_week6_B.cpp">
       <Filter>소스 파일\Week6</Filter>
     </ClCompile>
+    <ClCompile Include="4B_Bae.cpp">
+      <Filter>소스 파일\Week4</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

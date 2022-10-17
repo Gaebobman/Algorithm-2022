@@ -30,7 +30,6 @@ void move(int n, int from, int to) {
 				a = disk{ a.number, move_left };
 				size_of_disk = move_left;
 			}
-
 		}
 		else {
 			a = c3.top(); c3.pop();

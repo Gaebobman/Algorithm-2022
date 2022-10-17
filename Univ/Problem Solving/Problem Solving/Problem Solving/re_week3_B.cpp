@@ -27,7 +27,6 @@ int main() {
 				carry = 0;
 			}
 
-
 			if (current_num <= 5) {
 				// 마지막 자리(MSB)가 아니라면
 				// 다음 자리를 고려하여 노동/사용을 결정
@@ -40,13 +39,11 @@ int main() {
 					}
 				}
 				days += current_num;
-
 			}
 			else {
 				days += 10 - current_num;
 				carry = 1;
 			}
-
 		}
 		days += carry;
 		cout << days << '\n';

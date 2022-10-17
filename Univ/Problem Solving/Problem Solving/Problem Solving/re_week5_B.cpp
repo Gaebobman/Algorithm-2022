@@ -95,8 +95,6 @@ int main() {
 		}
 		cout << result << '\n';
 		delete[] indegree; delete[] visited; delete[] time;
-		
-		
 	}
 
 	return 0;
