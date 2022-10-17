@@ -80,16 +80,7 @@ int main() {
 				}
 			}
 		}
-		/*	위상 정렬 결과를 확인하기 위해 출력
-		for (auto i = index_of_city.begin(); i != index_of_city.end(); i++) {
-			cout << (*i).first << ": " << (*i).second << '\n';
-		}
-		for (int i = 0; i < topology.size(); i++) {
-			cout << topology[i] << ' ';
-		}
-		
-		cout << '\n';
-		*/
+
 		for (int i = 0; i < topology.size(); i++) {
 			for (int j = 0; j < G[topology[i]].size(); j++) {
 				int dest = G[topology[i]][j].first;
@@ -103,7 +94,7 @@ int main() {
 				result = time[i];
 		}
 		cout << result << '\n';
-		delete[] indegree, visited, time;
+		delete[] indegree; delete[] visited; delete[] time;
 		
 		
 	}

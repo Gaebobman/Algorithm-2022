@@ -63,9 +63,6 @@
     <ClCompile Include="week5_B_12171735_JunpyoLee.cpp">
       <Filter>소스 파일\Week5</Filter>
     </ClCompile>
-    <ClCompile Include="Week6_A_12171735_JunpyoLee.cpp">
-      <Filter>소스 파일\Week6</Filter>
-    </ClCompile>
     <ClCompile Include="re_week2_A.cpp">
       <Filter>소스 파일\Week2</Filter>
     </ClCompile>
@@ -95,6 +92,12 @@
     </ClCompile>
     <ClCompile Include="re_week5_B.cpp">
       <Filter>소스 파일\Week5</Filter>
+    </ClCompile>
+    <ClCompile Include="re_week6_A.cpp">
+      <Filter>소스 파일\Week6</Filter>
+    </ClCompile>
+    <ClCompile Include="re_week6_B.cpp">
+      <Filter>소스 파일\Week6</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
