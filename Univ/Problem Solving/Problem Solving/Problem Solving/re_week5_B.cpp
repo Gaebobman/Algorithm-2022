@@ -3,6 +3,7 @@
 #include <map>
 #include <algorithm>
 #include <string>
+#include <cstring>
 #include <queue>
 
 using namespace std;
@@ -24,14 +25,15 @@ int main() {
 		vector<pair<string, int>> city_with_year;	// 도시와 연도가 저장
 		map<string, int> index_of_city;		// 도시를 인덱스로 관리
 		cin >> N >> M;
-		vector<vector<pair<int, int>>> G(N);	// 그래프
+		vector<vector<pair<int, int>>> G(N);	// 그래프 G[start]-{dest, time}
 		vector<int> year_of_index(N);		// 인덱스에 해당하는 도시의 연도
-		int* indegree;
-		int* visited;
-		int* time;
-		memset(&indegree, 0, N);
-		memset(&visited, 0, N);
-		memset(&time, 0, N);
+		int *indegree = new int[N];
+		int* visited = new int[N];
+		int* time = new int[N];
+
+		memset(indegree, 0, N * sizeof(int));
+		memset(visited, 0, N * sizeof(int));
+		memset(time, 0, N * sizeof(int));
 
 		// 1. 도시와 연도를 입력받는다
 		for (int i = 0; i < N; i++) {
@@ -47,17 +49,20 @@ int main() {
 			year_of_index[i] = city_with_year[i].second;
 		}
 
-		// 2. 버스 정보를 입력받는다. (DAG + 같은 연도에서 같은 연도로 이동 불가)
+		// 2. 버스 정보를 입력받는다. (DAG / 같은 연도에서 같은 연도로 이동 불가 + 과거로 이동 불가)
 		for (int i = 0; i < M; i++) {
 			cin >> s1 >> s2>> t;
 			int s1_key = index_of_city.find(s1)->second;
 			int s2_key = index_of_city.find(s2)->second;
+			// cout << "S1: " << s1_key << "S2: " << s2_key << '\n';
 			// 같은 연도에서 같은 연도로 가는 간선을 만들지 않기 위함
 			if (year_of_index[s1_key] != year_of_index[s2_key]) {
 				G[min(s1_key, s2_key)].push_back({ max(s1_key, s2_key), t });
 				indegree[max(s1_key, s2_key)]++;
 			}
 		}
+		// 3. 위상정렬 결과를 저장
+		vector<int> topology;
 		for (int i = 0; i < N; i++) {
 			if (indegree[i] == 0) {
 				Q.push(i);
@@ -66,14 +71,41 @@ int main() {
 		}
 		while (!Q.empty()) {
 			int first = Q.front(); Q.pop();
+			topology.push_back(first);
+			for (int i = 0; i < G[first].size(); i++) {
+				int dest = G[first][i].first;
+				if (visited[dest] == 0 && --indegree[dest] == 0) {
+					Q.push(dest);
+					visited[dest] = 1;
+				}
+			}
 		}
-
-
-
-
-		free(indegree);
-		free(visited);
-		free(time);
+		/*	위상 정렬 결과를 확인하기 위해 출력
+		for (auto i = index_of_city.begin(); i != index_of_city.end(); i++) {
+			cout << (*i).first << ": " << (*i).second << '\n';
+		}
+		for (int i = 0; i < topology.size(); i++) {
+			cout << topology[i] << ' ';
+		}
+		
+		cout << '\n';
+		*/
+		for (int i = 0; i < topology.size(); i++) {
+			for (int j = 0; j < G[topology[i]].size(); j++) {
+				int dest = G[topology[i]][j].first;
+				int time_to_dest = G[topology[i]][j].second;
+				time[dest] = max(time[dest], time[topology[i]] + time_to_dest);
+			}
+		}
+		int result = time[0];
+		for (int i = 1; i < N; i++) {
+			if (time[i] > result)
+				result = time[i];
+		}
+		cout << result << '\n';
+		delete[] indegree, visited, time;
+		
+		
 	}
 
 	return 0;
