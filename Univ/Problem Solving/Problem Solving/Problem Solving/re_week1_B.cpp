@@ -1,5 +1,3 @@
-/* -- WA -- */
-
 #include <iostream>
 #include <string>
 #include <stack>
@@ -15,7 +13,7 @@ int main() {
 
 	while (T--) {
 		int result = 0;
-		stack<char> mystack;
+		stack<int> mystack;
 		mystack.push(-1);
 		string str;
 		cin >> str;
@@ -34,7 +32,6 @@ int main() {
 				}
 			}
 		}
-		// cout <<  "::: " << T << " ::::\n";
 		cout << result << '\n';
 	}
 	return 0;
