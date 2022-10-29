@@ -43,7 +43,7 @@ int main() {
 	{
 		int n, m, u, v;
 		cin >> n >> m;
-		vector<int> *G = new vector<int>[n+1];
+		vector<int> *G = new vector<int>[n + 1];
 		int* visited = new int[n + 1];
 		int* infected = new int[n + 1];
 		memset(visited, 0, (n + 1) * sizeof(int));

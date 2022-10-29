@@ -114,5 +114,32 @@
     <ClCompile Include="rere_week2_B.cpp">
       <Filter>소스 파일\Week2</Filter>
     </ClCompile>
+    <ClCompile Include="rere_week3_A.cpp">
+      <Filter>소스 파일\Week3</Filter>
+    </ClCompile>
+    <ClCompile Include="rere_week3_B.cpp">
+      <Filter>소스 파일\Week3</Filter>
+    </ClCompile>
+    <ClCompile Include="rere_week4_A.cpp">
+      <Filter>소스 파일\Week4</Filter>
+    </ClCompile>
+    <ClCompile Include="rere_week4_B.cpp">
+      <Filter>소스 파일\Week4</Filter>
+    </ClCompile>
+    <ClCompile Include="rere_week5_A.cpp">
+      <Filter>소스 파일\Week5</Filter>
+    </ClCompile>
+    <ClCompile Include="rere_week5_B.cpp">
+      <Filter>소스 파일\Week5</Filter>
+    </ClCompile>
+    <ClCompile Include="rere_week6_A.cpp">
+      <Filter>소스 파일\Week6</Filter>
+    </ClCompile>
+    <ClCompile Include="rere_week6_B.cpp">
+      <Filter>소스 파일\Week6</Filter>
+    </ClCompile>
+    <ClCompile Include="rerere_week5_B.cpp">
+      <Filter>소스 파일\Week5</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

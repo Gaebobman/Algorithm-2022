@@ -29,7 +29,6 @@ int main() {
 			spice[i].second = V / spice[i].first;
 		}
 		sort(spice.begin(), spice.end(), compare);
-		cout << endl;
 		while (!spice.empty()) {
 			if (K == 0)
 				break;
