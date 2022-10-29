@@ -27,7 +27,7 @@ int main() {
 			height.push_back(tmp);
 		}
 		int idx_of_han = 0;
-		long long min_height = height[0];
+		int min_height = height[0];
 		for (int i = 1; i < N; i++) {
 			if (height[i] < min_height) {
 				min_height = height[i];
