@@ -45,5 +45,8 @@
     <ClCompile Include="4963_isle_count.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="NSO___10026_rg_color_weekness.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
