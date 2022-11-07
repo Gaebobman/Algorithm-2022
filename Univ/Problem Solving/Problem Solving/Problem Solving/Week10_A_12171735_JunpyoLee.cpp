@@ -19,7 +19,6 @@ int main() {
 	while (T--) {
 		int N, X, p, q;
 		int tmp;
-		int count = 0;
 		vector<int> num_set;
 		cin >> N;
 		for (int i = 0; i < N; i++) {
@@ -34,15 +33,14 @@ int main() {
 	return 0;
 }
 
-int calc(vector<int>& arr, int N, int X, int p, int q) {
-	int arr_length = arr.size();
+int calc(vector<int>& num_set, int N, int X, int p, int q) {
 	int result = 0;
-	vector <int> circulation; // 순환을 계산 (Array 길이 만큼)
-	circulation.push_back(1);
+	vector <int> mod_of_power; // 순환을 계산 (Array 길이 만큼)
+	mod_of_power.push_back(1);
 
-	for (int i = 0; i < arr_length; i++) {
-		int current = (circulation.back() * X) % given;
-		circulation.push_back(current);
+	for (int i = 0; i < N; i++) {
+		int current = (mod_of_power.back() * X) % given;
+		mod_of_power.push_back(current);
 	}
 	// 모든 순열을 확인한다.
 	// (A * B) mod C = (A mod C * B mod C) mod C
@@ -50,13 +48,13 @@ int calc(vector<int>& arr, int N, int X, int p, int q) {
 	do {
 		int sum = 0;
 		for (int i = 0; i < N; i++) {
-			sum += arr[i] * circulation[i];
+			sum += num_set[i] * mod_of_power[i];
 		}
 		sum = sum % given;
 		if (is_range(sum, p, q)) {
 			result++;
 		}
-	} while (next_permutation(arr.begin(), arr.end()));
+	} while (next_permutation(num_set.begin(), num_set.end()));
 
 	return result;
 }
