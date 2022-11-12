@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 #include <algorithm>
 #include <vector>
-#include <cmath>
 
 const int given = 1013;
 
