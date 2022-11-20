@@ -38,7 +38,6 @@ int main() {
 			K++;
 			tmp = pow(2, K);
 		}
-		//cout << "K: " << K << endl;
 
 		cout << alpha[K - 1] + K  << ' '<< N + alpha[K - 1] << '\n';
 	}

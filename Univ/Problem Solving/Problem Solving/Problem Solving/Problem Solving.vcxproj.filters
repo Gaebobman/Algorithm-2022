@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\Week11">
       <UniqueIdentifier>{25625ba1-93dd-4931-a8f1-ac28b02e72f0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Week12">
+      <UniqueIdentifier>{bdde399e-1d4a-48ba-aad2-80813c82800a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="week1_A_12171735_JunpyoLee.cpp">
@@ -164,6 +167,12 @@
     </ClCompile>
     <ClCompile Include="Week11_A_12171735_JunpyoLee.cpp">
       <Filter>소스 파일\Week11</Filter>
+    </ClCompile>
+    <ClCompile Include="Week11_B_12171735_JunpyoLee.cpp">
+      <Filter>소스 파일\Week11</Filter>
+    </ClCompile>
+    <ClCompile Include="Week12_A_12171735_JunpyoLee.cpp">
+      <Filter>소스 파일\Week12</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
