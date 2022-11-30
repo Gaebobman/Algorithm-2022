@@ -8,33 +8,26 @@ int main() {
 	cout.tie(NULL);
 	int T, A, B, X;
 	cin >> T;
-	// X: 비룡 이미 간 거리
-	// A: 한번에 달릴 시간
-	// B: 쉬는 시간
+
 	while (T--) {
-		// 한번에 이동하는 거리 == A * 2;
-		// 한번에 이동 가능거리가 나오면 그때 계산
-		// 초당 1미터씩 가까워짐
 		int pos_bi, pos_to = 0;
 		cin >> X >> A >> B;
-		pos_bi = X; // 초기 비룡의 위치 저장
-		int result = 0;	// 걸린  시간
+		pos_bi = X; 
+		int result = 0;	
 		int one_hop = A * 2;
-		while (pos_bi != pos_to) {
-			// 이번 턴에 잡을 수 있으면
+		while (1) {
 			if (pos_to + one_hop >= pos_bi + A) {
 				result += (pos_bi - pos_to);
 				break;
 			}
 			else {
-				// 못잡고 다음턴으로 넘어가면
-				result += (A + B); // 한번 HOP, 휴식
-				pos_to += one_hop;	// 위치 업데이트
-				pos_bi += (A + B);	// 도망
+				result += (A + B); 
+				pos_to += one_hop;	
+				pos_bi += (A + B);	
 			}
 		}
-
 		cout << result + X << '\n';
 	}
 	return 0;
 }
+
