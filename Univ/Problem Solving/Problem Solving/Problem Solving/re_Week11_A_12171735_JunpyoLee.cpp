@@ -11,6 +11,8 @@ int main() {
 	cin.tie(NULL);
 	cout.tie(NULL);
 	int T;
+	ll N;
+	cin >> T;
 	vector<pair<ll, ll>> beta;
 	vector<ll> alpha;
 	beta.push_back({ 0, 0 });
@@ -18,30 +20,22 @@ int main() {
 	alpha.push_back(0);
 	alpha.push_back(1);
 	for (int i = 2; i <= 29; i++) {
-		pair <ll, ll> tmp = beta.back();
-		ll tmp_first = tmp.first + tmp.second;
-		ll tmp_second = tmp_first + pow(2, i - 1);
-		beta.push_back({ tmp_first, tmp_second });
+		pair<ll, ll> temp = beta.back();
+		ll temp_first = temp.first + temp.second;
+		ll temp_second = temp_first + pow(2, i - 1);
+		beta.push_back({ temp_first, temp_second });
+		ll temp_alpha = alpha.back() + beta[i].first + beta[i].second;
+		alpha.push_back(temp_alpha);
 	}
-	for (int i = 2; i <= 29; i++) {
-		ll tmp = alpha.back() + beta[i].first + beta[i].second;
-		alpha.push_back(tmp);
-	}
-
-	cin >> T;
 	while (T--) {
-		int N;
-		int K = 0;
+		int K = 0, tmp = 0;
 		cin >> N;
-		ll tmp = 0;
-		while (tmp != N) {
+		while (N != tmp) {
 			K++;
 			tmp = pow(2, K);
 		}
-
-		cout << alpha[K - 1] + K  << ' '<< N + alpha[K - 1] << '\n';
+		cout << alpha[K - 1] + K <<' '<< alpha[K - 1] + N << '\n';
 	}
-	
 	return 0;
 }
 
