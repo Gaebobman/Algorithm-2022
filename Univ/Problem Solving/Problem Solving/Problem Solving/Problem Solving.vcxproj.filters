@@ -213,5 +213,8 @@
     <ClCompile Include="Week12_B_12171735_JunpyoLee.cpp">
       <Filter>소스 파일\Week12</Filter>
     </ClCompile>
+    <ClCompile Include="re_Week12_B_12171735.cpp">
+      <Filter>소스 파일\Week12</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
