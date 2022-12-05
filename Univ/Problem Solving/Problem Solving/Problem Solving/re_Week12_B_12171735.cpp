@@ -1,4 +1,4 @@
-// WRONG
+// CORRECT
 #include <iostream>
 #include <vector>
 #include <set>
@@ -14,18 +14,19 @@ int main() {
 		int n, p;
 		set<pair<int, int>> stats;
 		set<pair<int, int>>::iterator itr;	// Power, Floor
-		vector<int> result;
+		vector<int> result; 
 		cin >> n;
 		for (int i = 0; i < n; i++) {
 			cin >> p;
 			stats.insert({ p, i + 1 });
 			itr = stats.find({ p, i + 1 });
-			itr--;
-
-			if (itr == stats.end())
+			if (itr == stats.begin()) {
 				cout << -1 << ' ';
-			else
+			}
+			else {
+				itr--;
 				cout << (*itr).second << ' ';
+			}
 		} 
 		cout << '\n';
 	}
