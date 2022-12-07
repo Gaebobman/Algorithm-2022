@@ -234,5 +234,23 @@
     <ClCompile Include="re_Week10_B_12171735_JunpyoLee.cpp">
       <Filter>소스 파일\Week10</Filter>
     </ClCompile>
+    <ClCompile Include="rere_Week11_A_12171735_JunpyoLee.cpp">
+      <Filter>소스 파일\Week11</Filter>
+    </ClCompile>
+    <ClCompile Include="rere_Week11_B_12171735_JunpyoLee.cpp">
+      <Filter>소스 파일\Week11</Filter>
+    </ClCompile>
+    <ClCompile Include="rere_Week12_A_12171735_JunpyoLee.cpp">
+      <Filter>소스 파일\Week12</Filter>
+    </ClCompile>
+    <ClCompile Include="re_Week13_A_12171735_JunpyoLee.cpp">
+      <Filter>소스 파일\Week13</Filter>
+    </ClCompile>
+    <ClCompile Include="rere_Week12_B_12171735_JunpyoLee.cpp">
+      <Filter>소스 파일\Week12</Filter>
+    </ClCompile>
+    <ClCompile Include="re_Week13_B_12171735_JunpyoLee.cpp">
+      <Filter>소스 파일\Week13</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
