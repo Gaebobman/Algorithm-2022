@@ -1,4 +1,4 @@
-	// Prefix Sum
+// CORRECT
 #include <iostream>
 #include <limits>
 #include <vector>

@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <vector>
 
-const int given = 1013;
+const int GIVEN = 1013;
 
 using namespace std;
 int calc(vector<int>& arr, int N, int X, int p, int q);
@@ -38,7 +38,7 @@ int calc(vector<int>& num_set, int N, int X, int p, int q) {
 	mod_of_power.push_back(1);
 
 	for (int i = 0; i < N; i++) {
-		int current = (mod_of_power.back() * X) % given;
+		int current = (mod_of_power.back() * X) % GIVEN;
 		mod_of_power.push_back(current);
 	}
 	// 모든 순열을 확인한다.
@@ -49,7 +49,7 @@ int calc(vector<int>& num_set, int N, int X, int p, int q) {
 		for (int i = 0; i < N; i++) {
 			sum += num_set[i] * mod_of_power[i];
 		}
-		sum = sum % given;
+		sum = sum % GIVEN;
 		if (is_range(sum, p, q)) {
 			result++;
 		}
