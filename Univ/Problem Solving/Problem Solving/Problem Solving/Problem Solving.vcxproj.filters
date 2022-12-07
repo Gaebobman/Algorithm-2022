@@ -231,5 +231,8 @@
     <ClCompile Include="rere_Week10_A_12171735_JunpyoLee.cpp">
       <Filter>소스 파일\Week10</Filter>
     </ClCompile>
+    <ClCompile Include="re_Week10_B_12171735_JunpyoLee.cpp">
+      <Filter>소스 파일\Week10</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
