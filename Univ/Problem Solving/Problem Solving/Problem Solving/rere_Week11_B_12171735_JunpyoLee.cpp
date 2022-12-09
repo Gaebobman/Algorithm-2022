@@ -22,7 +22,7 @@ int main() {
 		for (int i = 1; i <= n; i++) {
 			cin >> table[i];
 			score[table[i]] += current_score--;
-			if (table[i] == 1 && i != 0) {
+			if (table[i] == 1) {
 				opponent[table[i - 1]]++;
 			}
 		}
